@@ -10,20 +10,22 @@
   </head>
   <body>
     <h1>Library</h1>
-    <button>+ Add Book</button>
+    <button class="addBookButton">+ Add Book</button>
 
-    <section class="modal">
-      <h4>New Book</h4>
+    <section class="modal hide">
+      <h2>New Book</h2>
       <form action="" id="form">
-        <input type="text" id="title" />
-        <input type="text" id="author" />
-        <input type="text" id="pages" />
-        <label for="true">
+        <input type="text" id="title" placeholder="Title" />
+        <input type="text" id="author" placeholder="Author" />
+        <input type="text" id="pages" placeholder="Pages" />
+        <label for="true" class="read">
           Read:
-          <input type="checkbox" value="true" />
+          <input type="checkbox" value="true" class="checkbox" />
         </label>
-        <input type="submit" value="Submit" />
+        <button class="submitButton">Submit</button>
       </form>
     </section>
+
+    <div class="booksAdded"></div>
   </body>
 </html>

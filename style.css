@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(3, 148, 39, 0.486);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.addBookButton {
+  font-size: 30px;
+  background-color: black;
+  border: 2px solid black;
+  color: white;
+  cursor: pointer;
+}
+
+section {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  margin-top: 1rem;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.822);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+section h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.hide {
+  display: none;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#title,
+#author,
+#pages {
+  width: 60%;
+  margin-top: 1rem;
+  margin-left: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.checkbox {
+  cursor: pointer;
+}
+
+.read {
+  margin-top: 1rem;
+  margin-left: 20px;
+  font-size: 25px;
+  color: white;
+}
+
+.submitButton {
+  font-size: 15px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  width: 50%;
+  margin-left: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .booksAdded {
+  position: absolute;
+  top: 300px;
+  z-index: -1;
+} */
+
+.formatShelf {
+  display: flex;
+  justify-content: center;
+  top: 250px;
+  left: 10px;
+  z-index: -1;
+  border: 2px solid black;
+}
